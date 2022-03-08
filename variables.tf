@@ -1,5 +1,5 @@
 variable "dns_validation" {
-  description = "A boolean to validate the certificate using DNS"
+  description = "A boolean to validate the certificate using DNS. hosted_zone_domain_name should be passed as input if this is set to true"
   type        = bool
 }
 
